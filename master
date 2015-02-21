@@ -1,0 +1,14 @@
+fileserver_backend:
+    - roots
+    - git
+
+file_roots:
+    base:
+        - ./base/
+
+root_dir: ./
+
+gitfs_remotes:
+    - https://github.com/saltstack/salt.git:
+        - base: develop
+user: jason

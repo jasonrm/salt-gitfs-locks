@@ -1,0 +1,852 @@
+2015-02-21 03:03:43,078 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:03:53,086 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:04:03,091 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:04:13,099 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:04:23,102 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:04:30,726 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:04:30,726 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:12:30,924 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:12:30,927 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:12:35,746 [salt             ][INFO    ] Setting up the Salt Minion "minion"
+2015-02-21 03:12:35,746 [salt.utils.process][DEBUG   ] Created pidfile: /Users/jason/repos/jasonrm/salt-gitfs-locks/var/run/salt-minion.pid
+2015-02-21 03:12:35,747 [salt.config      ][DEBUG   ] Reading configuration from /Users/jason/repos/jasonrm/salt-gitfs-locks/minion
+2015-02-21 03:12:36,443 [salt.minion      ][DEBUG   ] Attempting to authenticate with the Salt Master at 127.0.0.1
+2015-02-21 03:12:36,444 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:36,622 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:36,622 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:36,740 [salt.minion      ][INFO    ] Authentication with master at 127.0.0.1 successful!
+2015-02-21 03:12:36,856 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:36,856 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:36,994 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:37,053 [salt.config      ][DEBUG   ] Reading configuration from /Users/jason/repos/jasonrm/salt-gitfs-locks/minion
+2015-02-21 03:12:37,806 [salt.cloud       ][DEBUG   ] Mako not available
+2015-02-21 03:12:38,066 [salt.minion      ][INFO    ] Added mine.update to schedular
+2015-02-21 03:12:38,066 [salt.utils.schedule][INFO    ] Added new job __mine_interval to scheduler
+2015-02-21 03:12:38,066 [salt.minion      ][DEBUG   ] I am minion and I am not supposed to start any proxies. (Likely not a problem)
+2015-02-21 03:12:38,066 [salt.minion      ][INFO    ] Minion is starting as user 'jason'
+2015-02-21 03:12:38,066 [salt.minion      ][DEBUG   ] Minion 'minion' trying to tune in
+2015-02-21 03:12:38,067 [salt.minion      ][DEBUG   ] Minion PUB socket URI: ipc:///Users/jason/repos/jasonrm/salt-gitfs-locks/var/run/salt/minion/minion_event_17dc79754f_pub.ipc
+2015-02-21 03:12:38,067 [salt.minion      ][DEBUG   ] Minion PULL socket URI: ipc:///Users/jason/repos/jasonrm/salt-gitfs-locks/var/run/salt/minion/minion_event_17dc79754f_pull.ipc
+2015-02-21 03:12:38,067 [salt.minion      ][INFO    ] Starting pub socket on ipc:///Users/jason/repos/jasonrm/salt-gitfs-locks/var/run/salt/minion/minion_event_17dc79754f_pub.ipc
+2015-02-21 03:12:38,067 [salt.minion      ][INFO    ] Starting pull socket on ipc:///Users/jason/repos/jasonrm/salt-gitfs-locks/var/run/salt/minion/minion_event_17dc79754f_pull.ipc
+2015-02-21 03:12:38,068 [salt.minion      ][DEBUG   ] Generated random reconnect delay between '1000ms' and '11000ms' (3849)
+2015-02-21 03:12:38,068 [salt.minion      ][DEBUG   ] Setting zmq_reconnect_ivl to '3849ms'
+2015-02-21 03:12:38,068 [salt.minion      ][DEBUG   ] Setting zmq_reconnect_ivl_max to '11000ms'
+2015-02-21 03:12:38,186 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:38,187 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:38,420 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:38,420 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:38,534 [salt.minion      ][INFO    ] Minion is ready to receive requests!
+2015-02-21 03:12:38,534 [salt.utils.schedule][INFO    ] Running scheduled job: __mine_interval
+2015-02-21 03:12:38,535 [salt.utils.schedule][DEBUG   ] schedule: This job was scheduled with jid_include, adding to cache (jid_include defaults to True)
+2015-02-21 03:12:38,535 [salt.utils.schedule][DEBUG   ] schedule: This job was scheduled with a max number of 2
+2015-02-21 03:12:38,543 [salt.utils.schedule][DEBUG   ] schedule.handle_func: adding this job to the jobcache with data {'fun': 'mine.update', 'jid': '20150221031238539310', 'pid': 32862, 'id': 'minion', 'schedule': '__mine_interval'}
+2015-02-21 03:12:38,666 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:38,667 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:38,788 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:38,953 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:38,954 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:39,381 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031239376748
+2015-02-21 03:12:39,382 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031239376748', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://fileone'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:12:39,389 [salt.minion      ][INFO    ] Starting a new job with PID 32871
+2015-02-21 03:12:39,505 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:39,506 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:39,624 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://fileone'
+2015-02-21 03:12:39,625 [salt.minion      ][INFO    ] Returning information for job: 20150221031239376748
+2015-02-21 03:12:39,750 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:39,750 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:44,271 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031244266972
+2015-02-21 03:12:44,272 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031244266972', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://fileone'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:12:44,279 [salt.minion      ][INFO    ] Starting a new job with PID 32935
+2015-02-21 03:12:44,400 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:44,401 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:12:44,522 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://fileone'
+2015-02-21 03:12:44,522 [salt.minion      ][INFO    ] Returning information for job: 20150221031244266972
+2015-02-21 03:12:44,651 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:12:44,652 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:24,323 [salt.crypt       ][DEBUG   ] Failed to authenticate message
+2015-02-21 03:15:24,323 [salt.minion      ][DEBUG   ] Waiting 8 seconds to re-authenticate
+2015-02-21 03:15:32,328 [salt.minion      ][DEBUG   ] Attempting to authenticate with the Salt Master at 127.0.0.1
+2015-02-21 03:15:32,330 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:32,539 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:15:32,540 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:32,669 [salt.minion      ][INFO    ] Authentication with master at 127.0.0.1 successful!
+2015-02-21 03:15:32,670 [salt.minion      ][INFO    ] User jason Executing command cp.list_master with jid 20150221031524318624
+2015-02-21 03:15:32,670 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031524318624', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': [], 'fun': 'cp.list_master'}
+2015-02-21 03:15:32,683 [salt.minion      ][INFO    ] User jason Executing command saltutil.find_job with jid 20150221031529333647
+2015-02-21 03:15:32,683 [salt.minion      ][INFO    ] Starting a new job with PID 34293
+2015-02-21 03:15:32,684 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031529333647', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['20150221031524318624'], 'fun': 'saltutil.find_job'}
+2015-02-21 03:15:32,691 [salt.minion      ][INFO    ] Starting a new job with PID 34296
+2015-02-21 03:15:32,701 [salt.minion      ][INFO    ] Returning information for job: 20150221031529333647
+2015-02-21 03:15:32,799 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:15:32,800 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:32,816 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:15:32,817 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:32,913 [salt.minion      ][INFO    ] Returning information for job: 20150221031524318624
+2015-02-21 03:15:33,034 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:15:33,035 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:36,610 [salt.minion      ][INFO    ] User jason Executing command cp.list_master with jid 20150221031536605025
+2015-02-21 03:15:36,610 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031536605025', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': [], 'fun': 'cp.list_master'}
+2015-02-21 03:15:36,618 [salt.minion      ][INFO    ] Starting a new job with PID 34358
+2015-02-21 03:15:36,748 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:15:36,749 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:15:36,879 [salt.minion      ][INFO    ] Returning information for job: 20150221031536605025
+2015-02-21 03:15:36,999 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:15:37,000 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:16:19,355 [salt.crypt       ][DEBUG   ] Failed to authenticate message
+2015-02-21 03:16:19,356 [salt.minion      ][DEBUG   ] Waiting 4 seconds to re-authenticate
+2015-02-21 03:16:23,358 [salt.minion      ][DEBUG   ] Attempting to authenticate with the Salt Master at 127.0.0.1
+2015-02-21 03:16:23,359 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:16:23,534 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:16:23,535 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:16:23,654 [salt.minion      ][INFO    ] Authentication with master at 127.0.0.1 successful!
+2015-02-21 03:16:23,655 [salt.minion      ][INFO    ] User jason Executing command cp.list_master with jid 20150221031619350476
+2015-02-21 03:16:23,655 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031619350476', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': [], 'fun': 'cp.list_master'}
+2015-02-21 03:16:23,667 [salt.minion      ][INFO    ] Starting a new job with PID 35042
+2015-02-21 03:16:23,782 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:16:23,783 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:16:23,920 [salt.minion      ][INFO    ] Returning information for job: 20150221031619350476
+2015-02-21 03:16:24,032 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:16:24,032 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:17:01,089 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031701084305
+2015-02-21 03:17:01,090 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031701084305', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://local-file'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:17:01,102 [salt.minion      ][INFO    ] Starting a new job with PID 35200
+2015-02-21 03:17:01,221 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:17:01,222 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:17:01,340 [salt.fileclient  ][DEBUG   ] Fetching file from saltenv 'base', ** attempting ** 'salt://local-file'
+2015-02-21 03:17:01,344 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** done ** 'local-file'
+2015-02-21 03:17:01,344 [salt.minion      ][INFO    ] Returning information for job: 20150221031701084305
+2015-02-21 03:17:01,461 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:17:01,462 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:17:42,482 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031742477496
+2015-02-21 03:17:42,482 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031742477496', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:17:42,493 [salt.minion      ][INFO    ] Starting a new job with PID 35333
+2015-02-21 03:17:42,622 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:17:42,622 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:17:42,737 [salt.fileclient  ][DEBUG   ] Fetching file from saltenv 'base', ** attempting ** 'salt://four.conf'
+2015-02-21 03:17:42,794 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** done ** 'four.conf'
+2015-02-21 03:17:42,794 [salt.minion      ][INFO    ] Returning information for job: 20150221031742477496
+2015-02-21 03:17:42,918 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:17:42,919 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:28,320 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031828315955
+2015-02-21 03:18:28,321 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031828315955', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:28,332 [salt.minion      ][INFO    ] Starting a new job with PID 35461
+2015-02-21 03:18:28,454 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:28,455 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:28,571 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:28,571 [salt.minion      ][INFO    ] Returning information for job: 20150221031828315955
+2015-02-21 03:18:28,686 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:28,686 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:30,236 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031830231174
+2015-02-21 03:18:30,237 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031830231174', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:30,249 [salt.minion      ][INFO    ] Starting a new job with PID 35507
+2015-02-21 03:18:30,370 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:30,371 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:30,490 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:30,490 [salt.minion      ][INFO    ] Returning information for job: 20150221031830231174
+2015-02-21 03:18:30,604 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:30,604 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:32,145 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031832140806
+2015-02-21 03:18:32,146 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031832140806', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:32,157 [salt.minion      ][INFO    ] Starting a new job with PID 35768
+2015-02-21 03:18:32,274 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:32,275 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:32,394 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:32,395 [salt.minion      ][INFO    ] Returning information for job: 20150221031832140806
+2015-02-21 03:18:32,516 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:32,516 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:34,064 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031834060039
+2015-02-21 03:18:34,065 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031834060039', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:34,077 [salt.minion      ][INFO    ] Starting a new job with PID 35778
+2015-02-21 03:18:34,196 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:34,196 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:34,321 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:34,322 [salt.minion      ][INFO    ] Returning information for job: 20150221031834060039
+2015-02-21 03:18:34,433 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:34,433 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:35,975 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031835971198
+2015-02-21 03:18:35,976 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031835971198', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:35,988 [salt.minion      ][INFO    ] Starting a new job with PID 35788
+2015-02-21 03:18:36,104 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:36,105 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:36,220 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:36,220 [salt.minion      ][INFO    ] Returning information for job: 20150221031835971198
+2015-02-21 03:18:36,330 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:36,330 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:37,888 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031837883380
+2015-02-21 03:18:37,888 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031837883380', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:37,900 [salt.minion      ][INFO    ] Starting a new job with PID 35798
+2015-02-21 03:18:38,021 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:38,022 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:38,137 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:38,138 [salt.minion      ][INFO    ] Returning information for job: 20150221031837883380
+2015-02-21 03:18:38,249 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:38,249 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:39,831 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031839825839
+2015-02-21 03:18:39,831 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031839825839', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:39,847 [salt.minion      ][INFO    ] Starting a new job with PID 35864
+2015-02-21 03:18:39,973 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:39,973 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:40,099 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:40,100 [salt.minion      ][INFO    ] Returning information for job: 20150221031839825839
+2015-02-21 03:18:40,249 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031840243505
+2015-02-21 03:18:40,249 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031840243505', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:40,260 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:40,261 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:40,266 [salt.minion      ][INFO    ] Starting a new job with PID 35872
+2015-02-21 03:18:40,394 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:40,395 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:40,517 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:40,517 [salt.minion      ][INFO    ] Returning information for job: 20150221031840243505
+2015-02-21 03:18:40,631 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:40,632 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:41,824 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031841818626
+2015-02-21 03:18:41,824 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031841818626', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:41,837 [salt.minion      ][INFO    ] Starting a new job with PID 35884
+2015-02-21 03:18:41,956 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:41,957 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:42,077 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:42,077 [salt.minion      ][INFO    ] Returning information for job: 20150221031841818626
+2015-02-21 03:18:42,184 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031842180911
+2015-02-21 03:18:42,185 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031842180911', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:42,191 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:42,192 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:42,197 [salt.minion      ][INFO    ] Starting a new job with PID 35892
+2015-02-21 03:18:42,316 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:42,317 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:42,434 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:42,435 [salt.minion      ][INFO    ] Returning information for job: 20150221031842180911
+2015-02-21 03:18:42,547 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:42,547 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:43,748 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031843743988
+2015-02-21 03:18:43,749 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031843743988', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:43,758 [salt.minion      ][INFO    ] Starting a new job with PID 35904
+2015-02-21 03:18:43,876 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:43,877 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:43,997 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:43,998 [salt.minion      ][INFO    ] Returning information for job: 20150221031843743988
+2015-02-21 03:18:44,104 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031844100039
+2015-02-21 03:18:44,104 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031844100039', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:44,112 [salt.minion      ][INFO    ] Starting a new job with PID 35912
+2015-02-21 03:18:44,114 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:44,114 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:44,232 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:44,233 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:44,357 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:44,357 [salt.minion      ][INFO    ] Returning information for job: 20150221031844100039
+2015-02-21 03:18:44,470 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:44,470 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:45,643 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031845638764
+2015-02-21 03:18:45,643 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031845638764', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:45,650 [salt.minion      ][INFO    ] Starting a new job with PID 35923
+2015-02-21 03:18:45,770 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:45,771 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:45,893 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:45,893 [salt.minion      ][INFO    ] Returning information for job: 20150221031845638764
+2015-02-21 03:18:46,007 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:46,007 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:46,035 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031846031352
+2015-02-21 03:18:46,036 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031846031352', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:46,044 [salt.minion      ][INFO    ] Starting a new job with PID 35932
+2015-02-21 03:18:46,166 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:46,167 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:46,284 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:46,285 [salt.minion      ][INFO    ] Returning information for job: 20150221031846031352
+2015-02-21 03:18:46,404 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:46,405 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:47,569 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031847564980
+2015-02-21 03:18:47,570 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031847564980', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:47,577 [salt.minion      ][INFO    ] Starting a new job with PID 35943
+2015-02-21 03:18:47,696 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:47,696 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:47,816 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:47,817 [salt.minion      ][INFO    ] Returning information for job: 20150221031847564980
+2015-02-21 03:18:47,933 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:47,933 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:47,970 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031847965683
+2015-02-21 03:18:47,971 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031847965683', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:47,979 [salt.minion      ][INFO    ] Starting a new job with PID 35952
+2015-02-21 03:18:48,100 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:48,101 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:48,217 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:48,218 [salt.minion      ][INFO    ] Returning information for job: 20150221031847965683
+2015-02-21 03:18:48,344 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:48,344 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:49,492 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031849487974
+2015-02-21 03:18:49,493 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031849487974', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:49,500 [salt.minion      ][INFO    ] Starting a new job with PID 35963
+2015-02-21 03:18:49,618 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:49,618 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:49,737 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:49,738 [salt.minion      ][INFO    ] Returning information for job: 20150221031849487974
+2015-02-21 03:18:49,851 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:49,851 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:49,894 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031849890301
+2015-02-21 03:18:49,895 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031849890301', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:49,902 [salt.minion      ][INFO    ] Starting a new job with PID 35972
+2015-02-21 03:18:50,023 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:50,024 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:50,154 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:50,155 [salt.minion      ][INFO    ] Returning information for job: 20150221031849890301
+2015-02-21 03:18:50,285 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:50,286 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:51,440 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031851435513
+2015-02-21 03:18:51,440 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031851435513', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:51,447 [salt.minion      ][INFO    ] Starting a new job with PID 36089
+2015-02-21 03:18:51,581 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:51,581 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:51,704 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:51,704 [salt.minion      ][INFO    ] Returning information for job: 20150221031851435513
+2015-02-21 03:18:51,825 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:51,826 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:53,420 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031853416339
+2015-02-21 03:18:53,421 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031853416339', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:53,428 [salt.minion      ][INFO    ] Starting a new job with PID 36099
+2015-02-21 03:18:53,554 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:53,555 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:53,692 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:53,693 [salt.minion      ][INFO    ] Returning information for job: 20150221031853416339
+2015-02-21 03:18:53,807 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:53,807 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:55,393 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031855388747
+2015-02-21 03:18:55,393 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031855388747', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:55,400 [salt.minion      ][INFO    ] Starting a new job with PID 36109
+2015-02-21 03:18:55,530 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:55,531 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:55,655 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:55,655 [salt.minion      ][INFO    ] Returning information for job: 20150221031855388747
+2015-02-21 03:18:55,780 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:55,780 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:57,370 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031857364020
+2015-02-21 03:18:57,370 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031857364020', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:57,378 [salt.minion      ][INFO    ] Starting a new job with PID 36120
+2015-02-21 03:18:57,496 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:57,497 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:57,611 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:57,611 [salt.minion      ][INFO    ] Returning information for job: 20150221031857364020
+2015-02-21 03:18:57,724 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:57,724 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:57,727 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031857723311
+2015-02-21 03:18:57,727 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031857723311', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:57,734 [salt.minion      ][INFO    ] Starting a new job with PID 36128
+2015-02-21 03:18:57,850 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:57,851 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:57,976 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:57,976 [salt.minion      ][INFO    ] Returning information for job: 20150221031857723311
+2015-02-21 03:18:58,101 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:58,102 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:58,696 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031858691931
+2015-02-21 03:18:58,697 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031858691931', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:58,704 [salt.minion      ][INFO    ] Starting a new job with PID 36191
+2015-02-21 03:18:58,830 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:58,831 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:58,957 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:58,957 [salt.minion      ][INFO    ] Returning information for job: 20150221031858691931
+2015-02-21 03:18:59,085 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:59,086 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:59,673 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031859668499
+2015-02-21 03:18:59,673 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031859668499', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:18:59,680 [salt.minion      ][INFO    ] Starting a new job with PID 36200
+2015-02-21 03:18:59,816 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:18:59,817 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:18:59,936 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:18:59,936 [salt.minion      ][INFO    ] Returning information for job: 20150221031859668499
+2015-02-21 03:19:00,055 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:00,055 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:00,663 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031900658650
+2015-02-21 03:19:00,664 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031900658650', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:00,671 [salt.minion      ][INFO    ] Starting a new job with PID 36209
+2015-02-21 03:19:00,791 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:00,791 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:00,914 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:00,915 [salt.minion      ][INFO    ] Returning information for job: 20150221031900658650
+2015-02-21 03:19:01,036 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:01,036 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:01,602 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031901598024
+2015-02-21 03:19:01,603 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031901598024', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:01,610 [salt.minion      ][INFO    ] Starting a new job with PID 36218
+2015-02-21 03:19:01,750 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:01,751 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:01,872 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:01,873 [salt.minion      ][INFO    ] Returning information for job: 20150221031901598024
+2015-02-21 03:19:01,998 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:01,999 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:02,595 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031902590825
+2015-02-21 03:19:02,595 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031902590825', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:02,603 [salt.minion      ][INFO    ] Starting a new job with PID 36227
+2015-02-21 03:19:02,727 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:02,728 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:02,854 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:02,854 [salt.minion      ][INFO    ] Returning information for job: 20150221031902590825
+2015-02-21 03:19:02,981 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:02,981 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:03,614 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031903610358
+2015-02-21 03:19:03,615 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031903610358', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:03,622 [salt.minion      ][INFO    ] Starting a new job with PID 36236
+2015-02-21 03:19:03,747 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:03,748 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:03,875 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:03,876 [salt.minion      ][INFO    ] Returning information for job: 20150221031903610358
+2015-02-21 03:19:04,000 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:04,001 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:04,581 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031904576761
+2015-02-21 03:19:04,582 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031904576761', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:04,589 [salt.minion      ][INFO    ] Starting a new job with PID 36245
+2015-02-21 03:19:04,720 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:04,721 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:04,837 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:04,837 [salt.minion      ][INFO    ] Returning information for job: 20150221031904576761
+2015-02-21 03:19:04,957 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:04,957 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:05,549 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031905544913
+2015-02-21 03:19:05,550 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031905544913', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:05,557 [salt.minion      ][INFO    ] Starting a new job with PID 36254
+2015-02-21 03:19:05,677 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:05,678 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:05,799 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:05,799 [salt.minion      ][INFO    ] Returning information for job: 20150221031905544913
+2015-02-21 03:19:05,919 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:05,920 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:06,515 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031906511296
+2015-02-21 03:19:06,516 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031906511296', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:06,523 [salt.minion      ][INFO    ] Starting a new job with PID 36263
+2015-02-21 03:19:06,643 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:06,643 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:06,778 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:06,779 [salt.minion      ][INFO    ] Returning information for job: 20150221031906511296
+2015-02-21 03:19:06,889 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:06,890 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:07,474 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031907469980
+2015-02-21 03:19:07,475 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031907469980', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:07,482 [salt.minion      ][INFO    ] Starting a new job with PID 36277
+2015-02-21 03:19:07,503 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031907499033
+2015-02-21 03:19:07,503 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031907499033', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:07,511 [salt.minion      ][INFO    ] Starting a new job with PID 36281
+2015-02-21 03:19:07,605 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:07,605 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:07,630 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:07,630 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:07,745 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:07,745 [salt.minion      ][INFO    ] Returning information for job: 20150221031907469980
+2015-02-21 03:19:07,747 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:07,748 [salt.minion      ][INFO    ] Returning information for job: 20150221031907499033
+2015-02-21 03:19:07,856 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:07,857 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:07,860 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:07,861 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:08,425 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031908420518
+2015-02-21 03:19:08,425 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031908420518', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:08,434 [salt.minion      ][INFO    ] Starting a new job with PID 36297
+2015-02-21 03:19:08,551 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:08,552 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:08,611 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031908606991
+2015-02-21 03:19:08,612 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031908606991', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:08,619 [salt.minion      ][INFO    ] Starting a new job with PID 36303
+2015-02-21 03:19:08,675 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:08,676 [salt.minion      ][INFO    ] Returning information for job: 20150221031908420518
+2015-02-21 03:19:08,742 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:08,742 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:08,786 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:08,786 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:08,860 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:08,861 [salt.minion      ][INFO    ] Returning information for job: 20150221031908606991
+2015-02-21 03:19:08,985 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:08,986 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:09,349 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031909344956
+2015-02-21 03:19:09,350 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031909344956', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:09,357 [salt.minion      ][INFO    ] Starting a new job with PID 36316
+2015-02-21 03:19:09,479 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:09,480 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:09,599 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:09,600 [salt.minion      ][INFO    ] Returning information for job: 20150221031909344956
+2015-02-21 03:19:09,715 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:09,715 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:10,258 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031910253868
+2015-02-21 03:19:10,259 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031910253868', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:10,270 [salt.minion      ][INFO    ] Starting a new job with PID 36339
+2015-02-21 03:19:10,283 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031910279049
+2015-02-21 03:19:10,284 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031910279049', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:10,291 [salt.minion      ][INFO    ] Starting a new job with PID 36342
+2015-02-21 03:19:10,394 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:10,395 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:10,413 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:10,414 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:10,522 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:10,522 [salt.minion      ][INFO    ] Returning information for job: 20150221031910253868
+2015-02-21 03:19:10,545 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:10,546 [salt.minion      ][INFO    ] Returning information for job: 20150221031910279049
+2015-02-21 03:19:10,648 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:10,649 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:10,670 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:10,670 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:11,218 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031911213122
+2015-02-21 03:19:11,219 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031911213122', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:11,228 [salt.minion      ][INFO    ] Starting a new job with PID 36362
+2015-02-21 03:19:11,350 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:11,351 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:11,472 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:11,472 [salt.minion      ][INFO    ] Returning information for job: 20150221031911213122
+2015-02-21 03:19:11,582 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:11,583 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:12,162 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031912157654
+2015-02-21 03:19:12,163 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031912157654', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:12,170 [salt.minion      ][INFO    ] Starting a new job with PID 36383
+2015-02-21 03:19:12,291 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:12,291 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:12,407 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:12,408 [salt.minion      ][INFO    ] Returning information for job: 20150221031912157654
+2015-02-21 03:19:12,526 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:12,526 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:13,082 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031913077300
+2015-02-21 03:19:13,082 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031913077300', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:13,090 [salt.minion      ][INFO    ] Starting a new job with PID 36404
+2015-02-21 03:19:13,210 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:13,210 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:13,328 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:13,329 [salt.minion      ][INFO    ] Returning information for job: 20150221031913077300
+2015-02-21 03:19:13,442 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:13,442 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:13,995 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031913990863
+2015-02-21 03:19:13,996 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031913990863', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:14,004 [salt.minion      ][INFO    ] Starting a new job with PID 36425
+2015-02-21 03:19:14,122 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:14,123 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:14,238 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:14,239 [salt.minion      ][INFO    ] Returning information for job: 20150221031913990863
+2015-02-21 03:19:14,351 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:14,352 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:14,892 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031914888027
+2015-02-21 03:19:14,893 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031914888027', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:14,900 [salt.minion      ][INFO    ] Starting a new job with PID 36448
+2015-02-21 03:19:15,017 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,018 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:15,139 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:15,139 [salt.minion      ][INFO    ] Returning information for job: 20150221031914888027
+2015-02-21 03:19:15,149 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031915145850
+2015-02-21 03:19:15,150 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031915145850', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:15,157 [salt.minion      ][INFO    ] Starting a new job with PID 36454
+2015-02-21 03:19:15,257 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,257 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:15,278 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,278 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:15,396 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:15,397 [salt.minion      ][INFO    ] Returning information for job: 20150221031915145850
+2015-02-21 03:19:15,513 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,513 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:15,596 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031915591936
+2015-02-21 03:19:15,596 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031915591936', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:15,603 [salt.minion      ][INFO    ] Starting a new job with PID 36467
+2015-02-21 03:19:15,727 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,728 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:15,828 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031915824023
+2015-02-21 03:19:15,829 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031915824023', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:15,837 [salt.minion      ][INFO    ] Starting a new job with PID 36475
+2015-02-21 03:19:15,857 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:15,857 [salt.minion      ][INFO    ] Returning information for job: 20150221031915591936
+2015-02-21 03:19:15,966 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,967 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:15,975 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:15,976 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:16,092 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:16,093 [salt.minion      ][INFO    ] Returning information for job: 20150221031915824023
+2015-02-21 03:19:16,206 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:16,206 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:16,763 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031916758675
+2015-02-21 03:19:16,764 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031916758675', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:16,772 [salt.minion      ][INFO    ] Starting a new job with PID 36497
+2015-02-21 03:19:16,892 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:16,892 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:17,008 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:17,009 [salt.minion      ][INFO    ] Returning information for job: 20150221031916758675
+2015-02-21 03:19:17,120 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:17,121 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:17,467 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031917462512
+2015-02-21 03:19:17,467 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031917462512', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:17,474 [salt.minion      ][INFO    ] Starting a new job with PID 36513
+2015-02-21 03:19:17,590 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:17,591 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:17,668 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031917662425
+2015-02-21 03:19:17,669 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031917662425', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:17,678 [salt.minion      ][INFO    ] Starting a new job with PID 36521
+2015-02-21 03:19:17,716 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:17,717 [salt.minion      ][INFO    ] Returning information for job: 20150221031917462512
+2015-02-21 03:19:17,800 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:17,800 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:17,837 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:17,837 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:17,924 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:17,925 [salt.minion      ][INFO    ] Returning information for job: 20150221031917662425
+2015-02-21 03:19:18,054 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:18,055 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:18,625 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031918619436
+2015-02-21 03:19:18,625 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031918619436', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:18,634 [salt.minion      ][INFO    ] Starting a new job with PID 36564
+2015-02-21 03:19:18,758 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:18,759 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:18,883 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:18,883 [salt.minion      ][INFO    ] Returning information for job: 20150221031918619436
+2015-02-21 03:19:18,999 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:18,999 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:19,564 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031919558654
+2015-02-21 03:19:19,565 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031919558654', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:19,572 [salt.minion      ][INFO    ] Starting a new job with PID 36585
+2015-02-21 03:19:19,693 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:19,693 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:19,811 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:19,812 [salt.minion      ][INFO    ] Returning information for job: 20150221031919558654
+2015-02-21 03:19:19,925 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:19,925 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:20,507 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031920502983
+2015-02-21 03:19:20,508 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031920502983', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:20,515 [salt.minion      ][INFO    ] Starting a new job with PID 36682
+2015-02-21 03:19:20,639 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:20,640 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:20,767 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:20,768 [salt.minion      ][INFO    ] Returning information for job: 20150221031920502983
+2015-02-21 03:19:20,887 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:20,888 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:21,466 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031921461933
+2015-02-21 03:19:21,467 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031921461933', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:21,474 [salt.minion      ][INFO    ] Starting a new job with PID 36776
+2015-02-21 03:19:21,601 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:21,602 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:21,735 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:21,735 [salt.minion      ][INFO    ] Returning information for job: 20150221031921461933
+2015-02-21 03:19:21,861 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:21,862 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:22,446 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031922441097
+2015-02-21 03:19:22,446 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031922441097', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:22,453 [salt.minion      ][INFO    ] Starting a new job with PID 36786
+2015-02-21 03:19:22,590 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:22,591 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:22,706 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:22,707 [salt.minion      ][INFO    ] Returning information for job: 20150221031922441097
+2015-02-21 03:19:22,830 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:22,830 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:23,424 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031923419499
+2015-02-21 03:19:23,424 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031923419499', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:23,431 [salt.minion      ][INFO    ] Starting a new job with PID 36796
+2015-02-21 03:19:23,565 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:23,566 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:23,686 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:23,686 [salt.minion      ][INFO    ] Returning information for job: 20150221031923419499
+2015-02-21 03:19:23,802 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:23,802 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:24,383 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031924378369
+2015-02-21 03:19:24,383 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031924378369', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:24,390 [salt.minion      ][INFO    ] Starting a new job with PID 36806
+2015-02-21 03:19:24,530 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:24,532 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:24,664 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:24,665 [salt.minion      ][INFO    ] Returning information for job: 20150221031924378369
+2015-02-21 03:19:24,788 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:24,788 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:25,394 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031925389340
+2015-02-21 03:19:25,394 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031925389340', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:25,401 [salt.minion      ][INFO    ] Starting a new job with PID 36816
+2015-02-21 03:19:25,526 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:25,526 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:25,662 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:25,663 [salt.minion      ][INFO    ] Returning information for job: 20150221031925389340
+2015-02-21 03:19:25,781 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:25,782 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:26,354 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031926349641
+2015-02-21 03:19:26,354 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031926349641', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:26,361 [salt.minion      ][INFO    ] Starting a new job with PID 36826
+2015-02-21 03:19:26,479 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:26,480 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:26,603 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:26,604 [salt.minion      ][INFO    ] Returning information for job: 20150221031926349641
+2015-02-21 03:19:26,715 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:26,716 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:27,292 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031927288044
+2015-02-21 03:19:27,293 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031927288044', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:27,300 [salt.minion      ][INFO    ] Starting a new job with PID 36890
+2015-02-21 03:19:27,421 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:27,422 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:27,549 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:27,549 [salt.minion      ][INFO    ] Returning information for job: 20150221031927288044
+2015-02-21 03:19:27,670 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:27,671 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:28,269 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031928265145
+2015-02-21 03:19:28,270 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031928265145', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:28,277 [salt.minion      ][INFO    ] Starting a new job with PID 36900
+2015-02-21 03:19:28,411 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:28,412 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:28,539 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:28,539 [salt.minion      ][INFO    ] Returning information for job: 20150221031928265145
+2015-02-21 03:19:28,664 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:28,664 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:29,237 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031929232466
+2015-02-21 03:19:29,237 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031929232466', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:29,245 [salt.minion      ][INFO    ] Starting a new job with PID 36910
+2015-02-21 03:19:29,376 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:29,376 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:29,507 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:29,508 [salt.minion      ][INFO    ] Returning information for job: 20150221031929232466
+2015-02-21 03:19:29,645 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:29,646 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:30,268 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031930263638
+2015-02-21 03:19:30,268 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031930263638', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:30,275 [salt.minion      ][INFO    ] Starting a new job with PID 36920
+2015-02-21 03:19:30,407 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:30,407 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:30,534 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:30,534 [salt.minion      ][INFO    ] Returning information for job: 20150221031930263638
+2015-02-21 03:19:30,648 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:30,648 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:31,241 [salt.minion      ][INFO    ] User jason Executing command cp.get_file_str with jid 20150221031931236602
+2015-02-21 03:19:31,241 [salt.minion      ][DEBUG   ] Command details {'tgt_type': 'glob', 'jid': '20150221031931236602', 'tgt': 'minion', 'ret': '', 'user': 'jason', 'arg': ['salt://four.conf'], 'fun': 'cp.get_file_str'}
+2015-02-21 03:19:31,249 [salt.minion      ][INFO    ] Starting a new job with PID 36930
+2015-02-21 03:19:31,375 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:31,375 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:31,511 [salt.fileclient  ][INFO    ] Fetching file from saltenv 'base', ** skipped ** latest already in cache 'salt://four.conf'
+2015-02-21 03:19:31,512 [salt.minion      ][INFO    ] Returning information for job: 20150221031931236602
+2015-02-21 03:19:31,642 [salt.crypt       ][DEBUG   ] Decrypting the current master AES key
+2015-02-21 03:19:31,643 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:19:59,411 [salt.crypt       ][DEBUG   ] Failed to authenticate message
+2015-02-21 03:19:59,412 [salt.minion      ][DEBUG   ] Waiting 3 seconds to re-authenticate
+2015-02-21 03:20:02,412 [salt.minion      ][DEBUG   ] Attempting to authenticate with the Salt Master at 127.0.0.1
+2015-02-21 03:20:02,414 [salt.crypt       ][DEBUG   ] Loaded minion key: /Users/jason/repos/jasonrm/salt-gitfs-locks/etc/salt/pki/minion/minion.pem
+2015-02-21 03:20:04,754 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:20:04,755 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:23:41,592 [salt.fileclient  ][ERROR   ] Data is 
+2015-02-21 03:23:41,593 [salt.minion      ][WARNING ] TypeError encountered executing cp.get_file_str: string indices must be integers, not str. See debug log for more info.
+2015-02-21 03:24:03,149 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:24:03,150 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:28:50,320 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,330 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,371 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,411 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,495 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,607 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,629 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,659 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,772 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,793 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,908 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,916 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:50,936 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,011 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,275 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,293 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,469 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,478 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,699 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:51,756 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,063 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,125 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,154 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,477 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,499 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,555 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,736 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,808 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,859 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:54,973 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:55,084 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:55,116 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:55,346 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:55,733 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:55,973 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:56,047 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:56,115 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:56,363 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:56,368 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:56,637 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:57,179 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:58,318 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:58,622 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:58,703 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:58,896 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:59,121 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:59,262 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:59,371 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:59,556 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:28:59,685 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:00,634 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:00,697 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:00,747 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:00,774 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:01,171 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:02,224 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:02,694 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:03,016 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:03,270 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:03,481 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:03,584 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:04,732 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:04,756 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:04,833 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:05,151 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:05,273 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:05,327 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:05,812 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:06,096 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:06,504 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:06,703 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:07,006 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:07,030 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:07,754 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:07,809 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:07,835 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:07,920 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:08,980 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:09,922 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:09,937 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:10,163 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:10,416 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:10,561 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:10,755 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:10,861 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:11,008 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:11,249 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:11,361 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:11,645 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:11,919 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:12,349 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:12,518 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:13,407 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:13,421 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:13,703 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:13,726 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:13,976 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:14,017 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:14,268 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:14,691 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:25,368 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:29:25,370 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:29:33,487 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:29:49,968 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:30:01,245 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:30:09,943 [salt.minion      ][ERROR   ] A command in 'cp.get_file_str' had a problem: Path 'four.conf' is not absolute
+2015-02-21 03:30:20,662 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:32:27,684 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:37:56,063 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:38:10,199 [salt.minion      ][WARNING ] The minion function caused an exception
+2015-02-21 03:40:55,618 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:40:55,620 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:42:09,857 [salt.fileclient  ][ERROR   ] Data is 
+2015-02-21 03:42:09,858 [salt.minion      ][WARNING ] TypeError encountered executing cp.get_file_str: string indices must be integers, not str. See debug log for more info.
+2015-02-21 03:48:02,807 [salt.fileclient  ][ERROR   ] Data is 
+2015-02-21 03:48:02,808 [salt.minion      ][WARNING ] TypeError encountered executing cp.get_file_str: string indices must be integers, not str. See debug log for more info.
+2015-02-21 03:53:33,840 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:53:33,842 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:54:48,927 [salt.fileclient  ][ERROR   ] Data is 
+2015-02-21 03:54:48,928 [salt.minion      ][WARNING ] TypeError encountered executing cp.get_file_str: string indices must be integers, not str. See debug log for more info.
+2015-02-21 03:55:24,856 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:55:24,858 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:57:05,338 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:15,345 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:25,349 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:25,666 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:35,181 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:35,357 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:35,672 [salt.crypt       ][ERROR   ] The Salt Master has cached the public key for this node, this salt minion will wait for 10 seconds before attempting to re-authenticate
+2015-02-21 03:57:47,315 [salt.payload     ][CRITICAL] Could not deserialize msgpack message: In an attempt to keep Salt running, returning an empty dict.This often happens when trying to read a file not in binary mode.Please open an issue and include the following error: Unpack failed: error = 0
+2015-02-21 03:58:01,686 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:58:01,687 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:58:02,381 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:58:02,382 [salt             ][WARNING ] Exiting on Ctrl-c
+2015-02-21 03:58:03,264 [salt             ][WARNING ] Stopping the Salt Minion
+2015-02-21 03:58:03,265 [salt             ][WARNING ] Exiting on Ctrl-c

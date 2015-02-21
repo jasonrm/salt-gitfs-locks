@@ -1,0 +1,8 @@
+salt:
+  config_dir: .
+salt-key:
+  config_dir: .
+salt-minion:
+  config_dir: .
+salt-master:
+  config_dir: .
